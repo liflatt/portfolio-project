@@ -73,13 +73,23 @@ p {
 .projects {
   padding: 15px 15px;
 }
+
 .project img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  max-width: 500px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background-color: #eeeeee;
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: var(--box-shadow);
 }
 
-.about-section {
+.project img {
+  border-radius: 16px;
+}
+
+about-section {
   padding: 15px 10px;
 }
 
@@ -179,6 +189,12 @@ footer .email-link:hover {
   background: var(--accent-color-two);
   border-color: var(--accent-color-two);
   transition: all 50ms ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .project-row:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
 }
 
 @media (max-width: 900px) {
