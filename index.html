@@ -7,15 +7,6 @@
       name="description"
       content="Discover Lindsey Flatt, a Systems Analyst and Front-End Developer"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/afbde485f0.js"
-      crossorigin="anonymous"
-    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,14 +19,13 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="/src/style.css" />
     <title>Lindsey Flatt</title>
   </head>
   <body>
     <div class="container nav-container">
       <nav
-        class="d-flex flex-start justify-content-between navbar navbar-expand-lg sticky-top bg-custom"
+        class="navbar navbar-expand-lg sticky-top bg-custom justify-content-between"
       >
         <button
           class="navbar-toggler"
@@ -73,32 +63,33 @@
         </div>
       </nav>
     </div>
+
     <div class="main">
       <div class="hero justify-content-center">
         <p class="text-center">👋 Hi I am</p>
         <h1 class="text-center">Lindsey Flatt</h1>
         <h4 class="text-center">
-          Business Systems Analyst | Front-end Developer
+          Business Systems Analyst | Front-end Developer | Fort Worth, TX
         </h4>
-        <div
-          class="navigation-links mt-5 d-none d-md-block text-center justify-content-between"
-        >
+        <div class="navigation-links mt-5 d-none d-md-block text-center">
           <a href="/about.html" class="primary-links">About Me</a>
           <a href="/about.html#contact" class="primary-links">Contact Me</a>
         </div>
       </div>
+
       <div class="container projects mt-3" id="projects">
         <div class="text-center mb-3 featured-projects">Featured Projects</div>
+
+        <!-- Weather App -->
         <div class="row mt-5 project">
           <div class="col-md-6 text-md-start text-center">
             <h3 class="mb-3">Weather App</h3>
             <p class="mb-5 project-paragraph text-muted">
               I developed this weather app as part of the SheCodes Coding
-              Bootcamp. It enables users to search for a city and access
-              real-time weather data along with a 5-day forecast through API
-              integration. Built using HTML, CSS, and JavaScript, the app also
-              features a toggle to switch between Celsius and Fahrenheit for
-              temperature display.
+              Bootcamp. It enables users to search for a city and view real-time
+              weather data along with a 5-day forecast through API integration.
+              Built using HTML, CSS, and JavaScript, it also includes a toggle
+              to switch between Celsius and Fahrenheit.
             </p>
             <div class="mt-5">
               <a
@@ -106,12 +97,10 @@
                 class="primary-links"
                 target="_blank"
                 title="Weather App"
+                >Weather App</a
               >
-                Weather App
-              </a>
             </div>
           </div>
-
           <div class="col-md-6 d-none d-md-block">
             <img
               src="/images/weather.png"
@@ -120,14 +109,16 @@
             />
           </div>
         </div>
+
+        <!-- Pilates Webpage -->
         <div class="row mt-5 project">
           <div class="col-md-6 text-md-start text-center">
             <h3 class="mb-3">Pilates Webpage</h3>
             <p class="mb-5 project-paragraph text-muted">
               This webpage, created as part of the SheCodes Coding Bootcamp,
               highlights one of my favorite hobbies: Pilates. Built with HTML,
-              CSS, and JavaScript, it features a 'faux' sign-up button for
-              Pilates classes, a gradient background, and a dark mode toggle.
+              CSS, and JavaScript, it features a faux sign-up button for
+              classes, a gradient background, and a dark mode toggle.
             </p>
             <div class="mt-5">
               <a
@@ -135,9 +126,8 @@
                 class="primary-links"
                 target="_blank"
                 title="Pilates Webpage"
+                >Pilates Webpage</a
               >
-                Pilates Webpage
-              </a>
             </div>
           </div>
           <div class="col-md-6 d-none d-md-block">
@@ -148,16 +138,17 @@
             />
           </div>
         </div>
+
+        <!-- World Clock -->
         <div class="row mt-5 project">
-          <div class="col-md-6 col-md-6 text-md-start text-center">
+          <div class="col-md-6 text-md-start text-center">
             <h3 class="mb-3">World Clock</h3>
             <p class="mb-5 project-paragraph text-muted">
               I developed this World Clock app as part of SheCodes Coding
               Bootcamp. It shows the current time for the user's location and
-              multiple other cities, with a dropdown menu to easily select
-              additional locations. Built with HTML, CSS, and JavaScript, the
-              app uses Moment.js to accurately retrieve and format times in a
-              clean and user-friendly interface.
+              multiple other cities, with a dropdown menu to select additional
+              locations. Built with HTML, CSS, and JavaScript, it uses Moment.js
+              for accurate time formatting.
             </p>
             <div class="mt-5">
               <a
@@ -165,9 +156,8 @@
                 class="primary-links"
                 target="_blank"
                 title="World Clock App"
+                >World Clock App</a
               >
-                World Clock App
-              </a>
             </div>
           </div>
           <div class="col-md-6 d-none d-md-block">
@@ -178,7 +168,36 @@
             />
           </div>
         </div>
+
+        <!-- React Weather App -->
+        <div class="row mt-5 project">
+          <div class="col-md-6 text-md-start text-center">
+            <h3 class="mb-3">Weather App | React</h3>
+            <p class="mb-5 project-paragraph text-muted">
+              I developed this weather app using React as part of the SheCodes
+              React workshop. It features real-time weather data, a 5-day
+              forecast, and a temperature unit toggle.
+            </p>
+            <div class="mt-5">
+              <a
+                href="https://react-weather-app-by-lindsey-flatt.netlify.app/"
+                class="primary-links"
+                target="_blank"
+                title="React Weather App Preview"
+                >React Weather App</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <img
+              src="/images/reactweather.png"
+              class="img-fluid rounded shadow"
+              alt="React weather app screenshot"
+            />
+          </div>
+        </div>
       </div>
+
       <footer>
         <div class="container text-center">
           <h3 class="mt-5">Contact me</h3>
@@ -187,9 +206,8 @@
               href="mailto:lflatt1221@gmail.com"
               class="email-link mt-2 mb-4"
               title="Email Lindsey"
+              >lflatt1221@gmail.com</a
             >
-              lflatt1221@gmail.com
-            </a>
           </div>
           <div
             class="social-links d-flex justify-content-center text-center mt-3 mb-5"
@@ -212,5 +230,16 @@
         </div>
       </footer>
     </div>
+
+    <!-- Scripts moved to end for performance -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/afbde485f0.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
